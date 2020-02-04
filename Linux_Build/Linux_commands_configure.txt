@@ -1,0 +1,77 @@
+[opc@instance-20200201-1813 jdk9]$ history
+    1  df
+    2  sudo iscsiadm -m node -o new -T iqn.2015-12.com.oracleiaas:152ebdc3-29f6-42d2-b20b-388ab0388026 -p 169.254.2.2:3260
+    3  sudo iscsiadm -m node -o update -T iqn.2015-12.com.oracleiaas:152ebdc3-29f6-42d2-b20b-388ab0388026 -n node.startup -v automatic
+    4  sudo iscsiadm -m node -T iqn.2015-12.com.oracleiaas:152ebdc3-29f6-42d2-b20b-388ab0388026 -p 169.254.2.2:3260 -l
+    5  sudo fdisk -l
+   13  ls -lrt
+   14  hg clone http://hg.openjdk.java.net/jdk9/jdk9
+   15  sudo apt-get install build-essential
+   16  sudo yum groupinstall "Development Tools"
+   17  hg clone http://hg.openjdk.java.net/jdk9/jdk9
+   18  sudo yum install java-1.8.0-openjdk-devel
+   19  bash get_source.sh
+   20  pwd
+   21  ls
+   22  dnf install mercurial
+   23  apt-get install mercurial
+   24  emerge mercurial
+   25  info
+   26  ps -ef
+   27  brew install mercurial
+   28  echo $PATH
+   29  yum install mercurial
+   30  history
+   31  sudo yum install mercurial
+   32  hg clone http://hg.openjdk.java.net/jdk9/jdk9
+   33  pwd
+   34  ls
+   35  cd jdk9/
+   36  ls
+   37  bash get_source.sh
+   60  make images
+   61  ./build/*/images/jdk/bin/java -version
+   62  pwd
+   63  cd build
+   64  ls
+   65  cd ..
+   66  make images
+   67  vi /home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libawt/java2d/pipe/ShapeSpanIterator.c
+   68  make images
+   69  vi /home/opc/jdk/jdk9/jdk/src/java.desktop/unix/native/common/java2d/x11/X11Renderer.c
+   70  make images
+   71  yum install gcc
+   72  sudo yum install gcc
+   73  make images
+   74  Wno-maybe-uninitializedWno-maybe-uninitialized
+   83  ls
+   84  grep -r . -e "Wno-maybe-uninitialized"
+   85  make -version
+   92  bash configure --disable-warnings-as-errors
+   93  sudo yum install elfutils-libelf-devel
+   94  make clean
+   95  make images
+   96  ./build/*/images/jdk/bin/java -version
+   97  make run-test-tier1
+   98  bash configure --disable-warnings-as-errors --with-jtreg
+   99  yum install jtreg
+  100  sudo yum install jtreg
+  101  images/jdk/bin/java -version
+  107  cd linux-x86_64-normal-server-release/
+  108  ls
+  109  ./jdk -version
+  110  pwd
+  125  ls
+  126  bash configure --disable-warnings-as-errors --with-version-string=Nikhil-OpenJDK-Build_v01
+  127  bash configure --disable-warnings-as-errors --with-version-string="Nikhil-OpenJDK-Build_v01"
+  128  bash configure --disable-warnings-as-errors --with-version-string="1.8.0-Build_v01"
+  129  bash configure --with-version-string="1.8.0-Build_v01"
+  130  bash configure --with-version-string="1.8.0"
+  131  bash configure --with-version-string="1.8.0-b12"
+  132  bash configure --disable-warnings-as-errors --with-version-string="build-9.1.8.0.nikhil.v1"
+  133  bash configure --disable-warnings-as-errors --with-version-string="9.1.8.0.nikhil.v1"
+  134  bash configure --disable-warnings-as-errors --with-version-string="1.8.0.nikhil.v1"
+  135  bash configure --disable-warnings-as-errors --with-version-string="1.8.0.nikhil_v1"
+  136  bash configure --disable-warnings-as-errors --with-version-string="1.8.0_nikhil_v1"
+  137  bash configure --disable-warnings-as-errors --with-version-string="1.8.0-nikhil_v1"
+  138  history

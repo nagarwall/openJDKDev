@@ -1,0 +1,1976 @@
+checking which variants of the JVM to build... server
+checking for sysroot...
+checking for toolchain path...
+checking for extra path...
+checking where to store configuration... in default location
+checking what configuration name to use... linux-x86_64-normal-server-release
+checking for apt-get... no
+checking for yum... yum
+checking for gmake... /usr/bin/gmake
+configure: Testing potential make at /usr/bin/gmake, found using gmake in PATH
+configure: Using GNU make at /usr/bin/gmake (version: GNU Make 3.81)
+checking if make --output-sync is supported... no
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for ldd... /usr/bin/ldd
+checking for otool... no
+checking for greadelf... no
+checking for readelf... /usr/bin/readelf
+checking for dot... no
+checking for hg... /usr/bin/hg
+checking for stat... /usr/bin/stat
+checking for time... /usr/bin/time
+checking for dtrace... no
+checking for gpatch... no
+checking for patch... /usr/bin/patch
+checking bash version... 4.1.2
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking headless only... no
+checking for graphviz dot... no, cannot generate full docs
+checking for pandoc... no, cannot generate full docs
+checking full docs... no, missing dependencies
+checking if packaged modules are kept... yes (default)
+configure: error: --with-version-string fails to parse as a valid version string: 1.8.0-nikhil_v1
+configure exiting with result code 1
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$ bash configure --disable-warnings-as-errors --with-version-string="1.8.0-nikhil_v1"
+Running generated-configure.sh
+configure: Configuration created at Sun Feb  2 04:37:12 GMT 2020.
+configure: configure script generated at timestamp 1496926402.
+checking for basename... /bin/basename
+checking for bash... /bin/bash
+checking for cat... /bin/cat
+checking for chmod... /bin/chmod
+checking for cmp... /usr/bin/cmp
+checking for comm... /usr/bin/comm
+checking for cp... /bin/cp
+checking for cut... /bin/cut
+checking for date... /bin/date
+checking for gdiff... no
+checking for diff... /usr/bin/diff
+checking for dirname... /usr/bin/dirname
+checking for echo... /bin/echo
+checking for expr... /usr/bin/expr
+checking for file... /usr/bin/file
+checking for find... /bin/find
+checking for head... /usr/bin/head
+checking for gunzip... /bin/gunzip
+checking for pigz... no
+checking for gzip... /bin/gzip
+checking for ln... /bin/ln
+checking for ls... /bin/ls
+checking for mkdir... /bin/mkdir
+checking for mktemp... /bin/mktemp
+checking for mv... /bin/mv
+checking for nawk... no
+checking for gawk... /bin/gawk
+checking for printf... /usr/bin/printf
+checking for rm... /bin/rm
+checking for rmdir... /bin/rmdir
+checking for sh... /bin/sh
+checking for sort... /bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... /bin/gtar
+checking for tee... /usr/bin/tee
+checking for touch... /bin/touch
+checking for tr... /usr/bin/tr
+checking for uname... /bin/uname
+checking for uniq... /usr/bin/uniq
+checking for wc... /usr/bin/wc
+checking for which... /usr/bin/which
+checking for xargs... /usr/bin/xargs
+checking for gawk... gawk
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for a sed that does not truncate output... /bin/sed
+checking for cygpath... no
+checking for greadlink... no
+checking for readlink... /bin/readlink
+checking for df... /bin/df
+checking for cpio... /bin/cpio
+checking for nice... /bin/nice
+checking for pandoc... no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking openjdk-build os-cpu... linux-x86_64
+checking openjdk-target os-cpu... linux-x86_64
+checking compilation type... native
+checking for top-level directory... /home/opc/jdk/jdk9
+checking if custom source is suppressed (openjdk-only)... no
+checking which variant of the JDK to build... normal
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking for sysroot...
+checking for toolchain path...
+checking for extra path...
+checking where to store configuration... in default location
+checking what configuration name to use... linux-x86_64-normal-server-release
+checking for apt-get... no
+checking for yum... yum
+checking for gmake... /usr/bin/gmake
+configure: Testing potential make at /usr/bin/gmake, found using gmake in PATH
+configure: Using GNU make at /usr/bin/gmake (version: GNU Make 3.81)
+checking if make --output-sync is supported... no
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for ldd... /usr/bin/ldd
+checking for otool... no
+checking for greadelf... no
+checking for readelf... /usr/bin/readelf
+checking for dot... no
+checking for hg... /usr/bin/hg
+checking for stat... /usr/bin/stat
+checking for time... /usr/bin/time
+checking for dtrace... no
+checking for gpatch... no
+checking for patch... /usr/bin/patch
+checking bash version... 4.1.2
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking headless only... no
+checking for graphviz dot... no, cannot generate full docs
+checking for pandoc... no, cannot generate full docs
+checking full docs... no, missing dependencies
+checking if packaged modules are kept... yes (default)
+configure: error: --with-version-string fails to parse as a valid version string: 1.8.0-nikhil_v1
+configure exiting with result code 1
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$ history
+    1  df
+    2  sudo iscsiadm -m node -o new -T iqn.2015-12.com.oracleiaas:152ebdc3-29f6-42d2-b20b-388ab0388026 -p 169.254.2.2:3260
+    3  sudo iscsiadm -m node -o update -T iqn.2015-12.com.oracleiaas:152ebdc3-29f6-42d2-b20b-388ab0388026 -n node.startup -v automatic
+    4  sudo iscsiadm -m node -T iqn.2015-12.com.oracleiaas:152ebdc3-29f6-42d2-b20b-388ab0388026 -p 169.254.2.2:3260 -l
+    5  sudo fdisk -l
+    6  df
+    7  pwd
+    8  cd
+    9  pwd
+   10  ls -lrt
+   11  mkdir jdk
+   12  cd jdk
+   13  ls -lrt
+   14  hg clone http://hg.openjdk.java.net/jdk9/jdk9
+   15  sudo apt-get install build-essential
+   16  sudo yum groupinstall "Development Tools"
+   17  hg clone http://hg.openjdk.java.net/jdk9/jdk9
+   18  sudo yum install java-1.8.0-openjdk-devel
+   19  bash get_source.sh
+   20  pwd
+   21  ls
+   22  dnf install mercurial
+   23  apt-get install mercurial
+   24  emerge mercurial
+   25  info
+   26  ps -ef
+   27  brew install mercurial
+   28  echo $PATH
+   29  yum install mercurial
+   30  history
+   31  sudo yum install mercurial
+   32  hg clone http://hg.openjdk.java.net/jdk9/jdk9
+   33  pwd
+   34  ls
+   35  cd jdk9/
+   36  ls
+   37  bash get_source.sh
+   38  df
+   39  pwd
+   40  ls
+   41  bash configure
+   42  checking if static link of stdc++ is possible... yes
+   43  checking how to link with libstdc++... static
+   44  checking for X... no
+   45  configure: error: Could not find X11 libraries. You might be able to fix this by running 'sudo yum install libXtst-devel libXt-devel libXrender-devel libXi-devel'.
+   46  checking if static link of stdc++ is possible... yes
+   47  checking how to link with libstdc++... static
+   48  checking for X... no
+   49  configure: error: Could not find X11 libraries. You might be able to fix this by running 'sudo yum install libXtst-devel libXt-de
+
+   50  sudo yum install libXtst-devel libXt-devel libXrender-devel libXi-devel
+   51  bash configure
+   52  sudo yum install cups-devel
+   53  bash configure
+   54  sudo yum install freetype-devel
+   55  bash configure
+   56  sudo yum install alsa-lib-devel
+   57  bash configure
+   58  make images
+   59  df
+   60  make images
+   61  ./build/*/images/jdk/bin/java -version
+   62  pwd
+   63  cd build
+   64  ls
+   65  cd ..
+   66  make images
+   67  vi /home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libawt/java2d/pipe/ShapeSpanIterator.c
+   68  make images
+   69  vi /home/opc/jdk/jdk9/jdk/src/java.desktop/unix/native/common/java2d/x11/X11Renderer.c
+   70  make images
+   71  yum install gcc
+   72  sudo yum install gcc
+   73  make images
+   74  Wno-maybe-uninitializedWno-maybe-uninitialized
+   75  pwd
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd jdk
+   80  pwd
+   81  ls
+   82  cd jdk9/
+   83  ls
+   84  grep -r . -e "Wno-maybe-uninitialized"
+   85  make -version
+   86  bash configure --help
+   87  bash configure --help | grep  "Wno-maybe-uninitialized"
+   88  bash configure --help | grep  "ninitialized"
+   89  bash configure --help | grep  nitialized
+   90  bash configure -help
+   91  --disable-warnings-as-errors
+   92  bash configure --disable-warnings-as-errors
+   93  sudo yum install elfutils-libelf-devel
+   94  make clean
+   95  make images
+   96  ./build/*/images/jdk/bin/java -version
+   97  make run-test-tier1
+   98  bash configure --disable-warnings-as-errors --with-jtreg
+   99  yum install jtreg
+  100  sudo yum install jtreg
+  101  images/jdk/bin/java -version
+  102  pwd
+  103  ls
+  104  jdk/bin/java -version
+  105  cd build/
+  106  ls
+  107  cd linux-x86_64-normal-server-release/
+  108  ls
+  109  ./jdk -version
+  110  pwd
+  111  ls
+  112  cd images/
+  113  ls
+  114  cd jdk
+  115  ls
+  116  cd bin
+  117  ls
+  118  ./java -version
+  119  pwd
+  120  cd
+  121  pwd
+  122  cd jdk
+  123  ls
+  124  cd jdk9/
+  125  ls
+  126  bash configure --disable-warnings-as-errors --with-version-string=Nikhil-OpenJDK-Build_v01
+  127  bash configure --disable-warnings-as-errors --with-version-string="Nikhil-OpenJDK-Build_v01"
+  128  bash configure --disable-warnings-as-errors --with-version-string="1.8.0-Build_v01"
+  129  bash configure --with-version-string="1.8.0-Build_v01"
+  130  bash configure --with-version-string="1.8.0"
+  131  bash configure --with-version-string="1.8.0-b12"
+  132  bash configure --disable-warnings-as-errors --with-version-string="build-9.1.8.0.nikhil.v1"
+  133  bash configure --disable-warnings-as-errors --with-version-string="9.1.8.0.nikhil.v1"
+  134  bash configure --disable-warnings-as-errors --with-version-string="1.8.0.nikhil.v1"
+  135  bash configure --disable-warnings-as-errors --with-version-string="1.8.0.nikhil_v1"
+  136  bash configure --disable-warnings-as-errors --with-version-string="1.8.0_nikhil_v1"
+  137  bash configure --disable-warnings-as-errors --with-version-string="1.8.0-nikhil_v1"
+  138  history
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$ bash configure --help
+Running generated-configure.sh
+`configure' configures OpenJDK jdk9 to adapt to many kinds of systems.
+
+Usage: /home/opc/jdk/jdk9/configure [OPTION]... [VAR=VALUE]...
+
+To assign environment variables (e.g., CC, CFLAGS...), specify them as
+VAR=VALUE.  See below for descriptions of some of the useful variables.
+
+Defaults for the options are specified in brackets.
+
+Configuration:
+  -h, --help              display this help and exit
+      --help=short        display options specific to this package
+      --help=recursive    display the short help of all the included packages
+  -V, --version           display version information and exit
+  -q, --quiet, --silent   do not print `checking ...' messages
+      --cache-file=FILE   cache test results in FILE [disabled]
+  -C, --config-cache      alias for `--cache-file=config.cache'
+  -n, --no-create         do not create output files
+      --srcdir=DIR        find the sources in DIR [configure dir or `..']
+
+Installation directories:
+  --prefix=PREFIX         install architecture-independent files in PREFIX
+                          [/usr/local]
+  --exec-prefix=EPREFIX   install architecture-dependent files in EPREFIX
+                          [PREFIX]
+
+By default, `make install' will install all the files in
+`/usr/local/bin', `/usr/local/lib' etc.  You can specify
+an installation prefix other than `/usr/local' using `--prefix',
+for instance `--prefix=$HOME'.
+
+For better control, use the options below.
+
+Fine tuning of the installation directories:
+  --bindir=DIR            user executables [EPREFIX/bin]
+  --sbindir=DIR           system admin executables [EPREFIX/sbin]
+  --libexecdir=DIR        program executables [EPREFIX/libexec]
+  --sysconfdir=DIR        read-only single-machine data [PREFIX/etc]
+  --sharedstatedir=DIR    modifiable architecture-independent data [PREFIX/com]
+  --localstatedir=DIR     modifiable single-machine data [PREFIX/var]
+  --libdir=DIR            object code libraries [EPREFIX/lib]
+  --includedir=DIR        C header files [PREFIX/include]
+  --oldincludedir=DIR     C header files for non-gcc [/usr/include]
+  --datarootdir=DIR       read-only arch.-independent data root [PREFIX/share]
+  --datadir=DIR           read-only architecture-independent data [DATAROOTDIR]
+  --infodir=DIR           info documentation [DATAROOTDIR/info]
+  --localedir=DIR         locale-dependent data [DATAROOTDIR/locale]
+  --mandir=DIR            man documentation [DATAROOTDIR/man]
+  --docdir=DIR            documentation root [DATAROOTDIR/doc/openjdk]
+  --htmldir=DIR           html documentation [DOCDIR]
+  --dvidir=DIR            dvi documentation [DOCDIR]
+  --pdfdir=DIR            pdf documentation [DOCDIR]
+  --psdir=DIR             ps documentation [DOCDIR]
+
+X features:
+  --x-includes=DIR    X include files are in DIR
+  --x-libraries=DIR   X library files are in DIR
+
+System types:
+  --build=BUILD     configure for building on BUILD [guessed]
+  --host=HOST       cross-compile to build programs to run on HOST [BUILD]
+  --target=TARGET   configure for building compilers for TARGET [HOST]
+
+Optional Features:
+  --disable-option-checking  ignore unrecognized --enable/--with options
+  --disable-FEATURE       do not include FEATURE (same as --enable-FEATURE=no)
+  --enable-FEATURE[=ARG]  include FEATURE [ARG=yes]
+  --enable-openjdk-only   suppress building custom source even if present
+                          [disabled]
+  --enable-debug          set the debug level to fastdebug (shorthand for
+                          --with-debug-level=fastdebug) [disabled]
+  --enable-headless-only  only build headless (no GUI) support [disabled]
+  --enable-full-docs      build complete documentation [enabled if all tools
+                          found]
+  --disable-unlimited-crypto
+                          Disable unlimited crypto policy [enabled]
+  --disable-keep-packaged-modules
+                          Do not keep packaged modules in jdk image [enable]
+  --enable-static-build   enable static library build [disabled]
+  --disable-warnings-as-errors
+                          do not consider native warnings to be an error
+                          [enabled]
+  --enable-debug-symbols  Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --enable-zip-debug-info Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --enable-native-coverage
+                          enable native compilation with code coverage
+                          data[disabled]
+  --enable-dtrace[=yes/no/auto]
+                          enable dtrace. Default is auto, where dtrace is
+                          enabled if all dependencies are present.
+  --enable-aot[=yes/no/auto]
+                          enable ahead of time compilation feature. Default is
+                          auto, where aot is enabled if all dependencies are
+                          present.
+  --disable-hotspot-gtest Disables building of the Hotspot unit tests
+  --disable-freetype-bundling
+                          disable bundling of the freetype library with the
+                          build result [enabled on Windows or when using
+                          --with-freetype, disabled otherwise]
+  --enable-libffi-bundling
+                          enable bundling of libffi.so to make the built JDK
+                          runnable on more systems
+  --enable-jtreg-failure-handler
+                          forces build of the jtreg failure handler to be
+                          enabled, missing dependencies become fatal errors.
+                          Default is auto, where the failure handler is built
+                          if all dependencies are present and otherwise just
+                          disabled.
+  --disable-generate-classlist
+                          forces enabling or disabling of the generation of a
+                          CDS classlist at build time. Default is to generate
+                          it when either the server or client JVMs are built.
+  --enable-sjavac         use sjavac to do fast incremental compiles
+                          [disabled]
+  --disable-javac-server  disable javac server [enabled]
+  --enable-icecc          enable distribted compilation of native code using
+                          icecc/icecream [disabled]
+  --disable-precompiled-headers
+                          disable using precompiled headers when compiling C++
+                          [enabled]
+  --enable-ccache         enable using ccache to speed up recompilations
+                          [disabled]
+
+Optional Packages:
+  --with-PACKAGE[=ARG]    use PACKAGE [ARG=yes]
+  --without-PACKAGE       do not use PACKAGE (same as --with-PACKAGE=no)
+  --with-target-bits      build 32-bit or 64-bit binaries (for platforms that
+                          support it), e.g. --with-target-bits=32 [guessed]
+  --with-custom-make-dir  Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-jdk-variant      JDK variant to build (normal) [normal]
+  --with-debug-level      set the debug level (release, fastdebug, slowdebug,
+                          optimized) [release]
+  --with-jvm-variants     JVM variants (separated by commas) to build
+                          (server,client,minimal,core,zero,zeroshark,custom)
+                          [server]
+  --with-cpu-port         specify sources to use for Hotspot 64-bit ARM port
+                          (arm64,aarch64) [aarch64]
+  --with-devkit           use this devkit for compilers, tools and resources
+  --with-sys-root         alias for --with-sysroot for backwards compatability
+  --with-sysroot          use this directory as sysroot
+  --with-tools-dir        alias for --with-toolchain-path for backwards
+                          compatibility
+  --with-toolchain-path   prepend these directories when searching for
+                          toolchain binaries (compilers etc)
+  --with-extra-path       prepend these directories to the default path
+  --with-sdk-name         use the platform SDK of the given name. [macosx]
+  --with-conf-name        use this as the name of the configuration [generated
+                          from important configuration options]
+  --with-output-sync      set make output sync type if supported by make.
+                          [recurse]
+  --with-default-make-target
+                          set the default make target [exploded-image]
+  --with-cacerts-file     specify alternative cacerts file
+  --with-copyright-year   Set copyright year value for build [current year]
+  --with-milestone        Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-update-version   Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-user-release-suffix
+                          Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-build-number     Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-version-string   Set version string [calculated]
+  --with-version-pre      Set the base part of the version 'PRE' field
+                          (pre-release identifier) ['internal']
+  --with-version-opt      Set version 'OPT' field (build metadata)
+                          [<timestamp>.<user>.<dirname>]
+  --with-version-build    Set version 'BUILD' field (build number) [not
+                          specified]
+  --with-version-major    Set version 'MAJOR' field (first number) [current
+                          source value]
+  --with-version-minor    Set version 'MINOR' field (second number) [current
+                          source value]
+  --with-version-security Set version 'SECURITY' field (third number) [current
+                          source value]
+  --with-version-patch    Set version 'PATCH' field (fourth number) [not
+                          specified]
+  --with-boot-jdk         path to Boot JDK (used to bootstrap build) [probed]
+  --with-build-jdk        path to JDK of same version as is being built[the
+                          newly built JDK]
+  --with-add-source-root  Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-override-source-root
+                          Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-adds-and-overrides
+                          Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-override-langtools
+                          Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-override-corba   Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-override-jaxp    Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-override-jaxws   Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-override-hotspot Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-override-nashorn Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-override-jdk     Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-import_hotspot   Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-import-modules   import a set of prebuilt modules either as a zip
+                          file or an exploded directory
+  --with-toolchain-type   the toolchain type (or family) to use, use '--help'
+                          to show possible values [platform dependent]
+  --with-extra-cflags     extra flags to be used when compiling jdk c-files
+  --with-extra-cxxflags   extra flags to be used when compiling jdk c++-files
+  --with-extra-ldflags    extra flags to be used when linking jdk
+  --with-toolchain-version
+                          the version of the toolchain to look for, use
+                          '--help' to show possible values [platform
+                          dependent]
+  --with-build-devkit     Devkit to use for the build platform toolchain
+  --with-jtreg            Regression Test Harness [probed]
+  --with-abi-profile      specify ABI profile for ARM builds
+                          (arm-vfp-sflt,arm-vfp-hflt,arm-sflt,
+                          armv5-vfp-sflt,armv6-vfp-hflt,arm64,aarch64)
+                          [toolchain dependent]
+  --with-native-debug-symbols
+                          set the native debug symbol configuration (none,
+                          internal, external, zipped) [varying]
+  --with-stdc++lib=<static>,<dynamic>,<default>
+                          force linking of the C++ runtime on Linux to either
+                          static or dynamic, default is static with dynamic as
+                          fallback
+  --with-msvcr-dll        path to microsoft C runtime dll (msvcr*.dll)
+                          (Windows only) [probed]
+  --with-msvcp-dll        path to microsoft C++ runtime dll (msvcp*.dll)
+                          (Windows only) [probed]
+  --with-x                use the X Window System
+  --with-cups             specify prefix directory for the cups package
+                          (expecting the headers under PATH/include)
+  --with-cups-include     specify directory for the cups include files
+  --with-freetype         specify prefix directory for the freetype package
+                          (expecting the libraries under PATH/lib and the
+                          headers under PATH/include)
+  --with-freetype-include specify directory for the freetype include files
+  --with-freetype-lib     specify directory for the freetype library
+  --with-freetype-src     specify directory with freetype sources to
+                          automatically build the library (experimental,
+                          Windows-only)
+  --with-freetype-license if bundling freetype, also bundle this license file
+  --with-alsa             specify prefix directory for the alsa package
+                          (expecting the libraries under PATH/lib and the
+                          headers under PATH/include)
+  --with-alsa-include     specify directory for the alsa include files
+  --with-alsa-lib         specify directory for the alsa library
+  --with-libffi           specify prefix directory for the libffi package
+                          (expecting the libraries under PATH/lib and the
+                          headers under PATH/include)
+  --with-libffi-include   specify directory for the libffi include files
+  --with-libffi-lib       specify directory for the libffi library
+  --with-libjpeg          use libjpeg from build system or OpenJDK source
+                          (system, bundled) [bundled]
+  --with-giflib           use giflib from build system or OpenJDK source
+                          (system, bundled) [bundled]
+  --with-libpng           use libpng from build system or OpenJDK source
+                          (system, bundled) [bundled]
+  --with-zlib             use zlib from build system or OpenJDK source
+                          (system, bundled) [bundled]
+  --with-lcms             use lcms2 from build system or OpenJDK source
+                          (system, bundled) [bundled]
+  --with-dxsdk            Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-dxsdk-lib        Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-dxsdk-include    Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-libelf           specify prefix directory for the libelf package
+                          (expecting the libraries under PATH/lib and the
+                          headers under PATH/include)
+  --with-libelf-include   specify directory for the libelf include files
+  --with-libelf-lib       specify directory for the libelf library
+  --with-jvm-features     additional JVM features to enable (separated by
+                          comma), use '--help' to show possible values [none]
+  --with-jvm-interpreter  Deprecated. Option is kept for backwards
+                          compatibility and is ignored
+  --with-num-cores        number of cores in the build system, e.g.
+                          --with-num-cores=8 [probed]
+  --with-memory-size      memory (in MB) available in the build system, e.g.
+                          --with-memory-size=1024 [probed]
+  --with-jobs             number of parallel jobs to let make run [calculated
+                          based on cores and memory]
+  --with-test-jobs        number of parallel tests jobs to run [based on build
+                          jobs]
+  --with-boot-jdk-jvmargs specify JVM arguments to be passed to all java
+                          invocations of boot JDK, overriding the default
+                          values, e.g --with-boot-jdk-jvmargs="-Xmx8G
+                          -enableassertions"
+  --with-sjavac-server-java
+                          use this java binary for running the sjavac
+                          background server [Boot JDK java]
+  --with-ccache-dir       where to store ccache files [~/.ccache]
+
+Some influential environment variables:
+  BASENAME    Override default value for BASENAME
+  BASH        Override default value for BASH
+  CAT         Override default value for CAT
+  CHMOD       Override default value for CHMOD
+  CMP         Override default value for CMP
+  COMM        Override default value for COMM
+  CP          Override default value for CP
+  CUT         Override default value for CUT
+  DATE        Override default value for DATE
+  DIFF        Override default value for DIFF
+  DIRNAME     Override default value for DIRNAME
+  ECHO        Override default value for ECHO
+  EXPR        Override default value for EXPR
+  FILE        Override default value for FILE
+  FIND        Override default value for FIND
+  HEAD        Override default value for HEAD
+  GUNZIP      Override default value for GUNZIP
+  GZIP        Override default value for GZIP
+  LN          Override default value for LN
+  LS          Override default value for LS
+  MKDIR       Override default value for MKDIR
+  MKTEMP      Override default value for MKTEMP
+  MV          Override default value for MV
+  NAWK        Override default value for NAWK
+  PRINTF      Override default value for PRINTF
+  RM          Override default value for RM
+  RMDIR       Override default value for RMDIR
+  SH          Override default value for SH
+  SORT        Override default value for SORT
+  TAIL        Override default value for TAIL
+  TAR         Override default value for TAR
+  TEE         Override default value for TEE
+  TOUCH       Override default value for TOUCH
+  TR          Override default value for TR
+  UNAME       Override default value for UNAME
+  UNIQ        Override default value for UNIQ
+  WC          Override default value for WC
+  WHICH       Override default value for WHICH
+  XARGS       Override default value for XARGS
+  AWK         Override default value for AWK
+  GREP        Override default value for GREP
+  EGREP       Override default value for EGREP
+  FGREP       Override default value for FGREP
+  SED         Override default value for SED
+  CYGPATH     Override default value for CYGPATH
+  READLINK    Override default value for READLINK
+  DF          Override default value for DF
+  CPIO        Override default value for CPIO
+  NICE        Override default value for NICE
+  PANDOC      Override default value for PANDOC
+  MAKE        Override default value for MAKE
+  UNZIP       Override default value for UNZIP
+  ZIPEXE      Override default value for ZIPEXE
+  LDD         Override default value for LDD
+  OTOOL       Override default value for OTOOL
+  READELF     Override default value for READELF
+  DOT         Override default value for DOT
+  HG          Override default value for HG
+  STAT        Override default value for STAT
+  TIME        Override default value for TIME
+  DTRACE      Override default value for DTRACE
+  PATCH       Override default value for PATCH
+  DSYMUTIL    Override default value for DSYMUTIL
+  XATTR       Override default value for XATTR
+  CODESIGN    Override default value for CODESIGN
+  SETFILE     Override default value for SETFILE
+  PKG_CONFIG  path to pkg-config utility
+  JAVA        Override default value for JAVA
+  JAVAC       Override default value for JAVAC
+  JAVAH       Override default value for JAVAH
+  JAR         Override default value for JAR
+  JARSIGNER   Override default value for JARSIGNER
+  CC          C compiler command
+  CFLAGS      C compiler flags
+  LDFLAGS     linker flags, e.g. -L<lib dir> if you have libraries in a
+              nonstandard directory <lib dir>
+  LIBS        libraries to pass to the linker, e.g. -l<library>
+  CPPFLAGS    (Objective) C/C++ preprocessor flags, e.g. -I<include dir> if
+              you have headers in a nonstandard directory <include dir>
+  CXX         C++ compiler command
+  CXXFLAGS    C++ compiler flags
+  CPP         C preprocessor
+  CXXCPP      C++ preprocessor
+  AS          Override default value for AS
+  AR          Override default value for AR
+  LIPO        Override default value for LIPO
+  STRIP       Override default value for STRIP
+  NM          Override default value for NM
+  GNM         Override default value for GNM
+  OBJCOPY     Override default value for OBJCOPY
+  OBJDUMP     Override default value for OBJDUMP
+  BUILD_CC    Override default value for BUILD_CC
+  BUILD_CXX   Override default value for BUILD_CXX
+  BUILD_NM    Override default value for BUILD_NM
+  BUILD_AR    Override default value for BUILD_AR
+  BUILD_OBJCOPY
+              Override default value for BUILD_OBJCOPY
+  BUILD_STRIP Override default value for BUILD_STRIP
+  JTREGEXE    Override default value for JTREGEXE
+  XMKMF       Path to xmkmf, Makefile generator for X Window System
+  FREETYPE_CFLAGS
+              C compiler flags for FREETYPE, overriding pkg-config
+  FREETYPE_LIBS
+              linker flags for FREETYPE, overriding pkg-config
+  ALSA_CFLAGS C compiler flags for ALSA, overriding pkg-config
+  ALSA_LIBS   linker flags for ALSA, overriding pkg-config
+  LIBFFI_CFLAGS
+              C compiler flags for LIBFFI, overriding pkg-config
+  LIBFFI_LIBS linker flags for LIBFFI, overriding pkg-config
+  PNG_CFLAGS  C compiler flags for PNG, overriding pkg-config
+  PNG_LIBS    linker flags for PNG, overriding pkg-config
+  LCMS_CFLAGS C compiler flags for LCMS, overriding pkg-config
+  LCMS_LIBS   linker flags for LCMS, overriding pkg-config
+  ELF_CFLAGS  C compiler flags for ELF, overriding pkg-config
+  ELF_LIBS    linker flags for ELF, overriding pkg-config
+  ICECC_CMD   Override default value for ICECC_CMD
+  ICECC_CREATE_ENV
+              Override default value for ICECC_CREATE_ENV
+  ICECC_WRAPPER
+              Override default value for ICECC_WRAPPER
+  CCACHE      Override default value for CCACHE
+
+Use these variables to override the choices made by `configure' or to help
+it to find libraries and programs with nonstandard names/locations.
+
+Report bugs to <build-dev@openjdk.java.net>.
+OpenJDK home page: <http://openjdk.java.net>.
+
+Additional (non-autoconf) OpenJDK Options:
+  --openjdk-target=TARGET cross-compile with TARGET as target platform
+                          (i.e. the one you will run the resulting binary on).
+                          Equivalent to --host=TARGET --target=TARGET
+                          --build=<current platform>
+  --debug-configure       Run the configure script with additional debug
+                          logging enabled.
+
+The following toolchains are available as arguments to --with-toolchain-type.
+Which are valid to use depends on the build platform.
+  gcc         GNU Compiler Collection
+  clang       clang/LLVM
+  solstudio   Oracle Solaris Studio
+  xlc         IBM XL C/C++
+  microsoft   Microsoft Visual Studio
+
+The following JVM features are available as arguments to --with-jvm-features.
+Which are valid to use depends on the target platform.
+  compiler1 compiler2 zero shark minimal dtrace jvmti jvmci graal fprof vm-structs jni-check services management all-gcs nmt cds static-build link-time-opt aot
+
+Please be aware that, when cross-compiling, the OpenJDK configure script will
+generally use 'target' where autoconf traditionally uses 'host'.
+
+Also note that variables must be passed on the command line. Variables in the
+environment will generally be ignored, unlike traditional autoconf scripts.
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$ bash configure --disable-warnings-as-errors --with-version-build="1.8.0-nikhil_v1"
+Running generated-configure.sh
+configure: Configuration created at Sun Feb  2 04:39:44 GMT 2020.
+configure: configure script generated at timestamp 1496926402.
+checking for basename... /bin/basename
+checking for bash... /bin/bash
+checking for cat... /bin/cat
+checking for chmod... /bin/chmod
+checking for cmp... /usr/bin/cmp
+checking for comm... /usr/bin/comm
+checking for cp... /bin/cp
+checking for cut... /bin/cut
+checking for date... /bin/date
+checking for gdiff... no
+checking for diff... /usr/bin/diff
+checking for dirname... /usr/bin/dirname
+checking for echo... /bin/echo
+checking for expr... /usr/bin/expr
+checking for file... /usr/bin/file
+checking for find... /bin/find
+checking for head... /usr/bin/head
+checking for gunzip... /bin/gunzip
+checking for pigz... no
+checking for gzip... /bin/gzip
+checking for ln... /bin/ln
+checking for ls... /bin/ls
+checking for mkdir... /bin/mkdir
+checking for mktemp... /bin/mktemp
+checking for mv... /bin/mv
+checking for nawk... no
+checking for gawk... /bin/gawk
+checking for printf... /usr/bin/printf
+checking for rm... /bin/rm
+checking for rmdir... /bin/rmdir
+checking for sh... /bin/sh
+checking for sort... /bin/sort
+checking for tail... /usr/bin/tail
+checking for gtar... /bin/gtar
+checking for tee... /usr/bin/tee
+checking for touch... /bin/touch
+checking for tr... /usr/bin/tr
+checking for uname... /bin/uname
+checking for uniq... /usr/bin/uniq
+checking for wc... /usr/bin/wc
+checking for which... /usr/bin/which
+checking for xargs... /usr/bin/xargs
+checking for gawk... gawk
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for a sed that does not truncate output... /bin/sed
+checking for cygpath... no
+checking for greadlink... no
+checking for readlink... /bin/readlink
+checking for df... /bin/df
+checking for cpio... /bin/cpio
+checking for nice... /bin/nice
+checking for pandoc... no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking openjdk-build os-cpu... linux-x86_64
+checking openjdk-target os-cpu... linux-x86_64
+checking compilation type... native
+checking for top-level directory... /home/opc/jdk/jdk9
+checking if custom source is suppressed (openjdk-only)... no
+checking which variant of the JDK to build... normal
+checking which debug level to use... release
+checking which variants of the JVM to build... server
+checking for sysroot...
+checking for toolchain path...
+checking for extra path...
+checking where to store configuration... in default location
+checking what configuration name to use... linux-x86_64-normal-server-release
+checking for apt-get... no
+checking for yum... yum
+checking for gmake... /usr/bin/gmake
+configure: Testing potential make at /usr/bin/gmake, found using gmake in PATH
+configure: Using GNU make at /usr/bin/gmake (version: GNU Make 3.81)
+checking if make --output-sync is supported... no
+checking if find supports -delete... yes
+checking what type of tar was found... gnu
+checking that grep (/bin/grep) -Fx handles empty lines in the pattern list correctly... yes
+checking for unzip... /usr/bin/unzip
+checking for zip... /usr/bin/zip
+checking for ldd... /usr/bin/ldd
+checking for otool... no
+checking for greadelf... no
+checking for readelf... /usr/bin/readelf
+checking for dot... no
+checking for hg... /usr/bin/hg
+checking for stat... /usr/bin/stat
+checking for time... /usr/bin/time
+checking for dtrace... no
+checking for gpatch... no
+checking for patch... /usr/bin/patch
+checking bash version... 4.1.2
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking headless only... no
+checking for graphviz dot... no, cannot generate full docs
+checking for pandoc... no, cannot generate full docs
+checking full docs... no, missing dependencies
+checking if packaged modules are kept... yes (default)
+configure: WARNING: Value for VERSION_BUILD has been sanitized from '1.8.0-nikhil_v1' to '1'
+checking for version string... 9-internal+1-adhoc.opc.jdk9
+checking for javac... /usr/bin/javac
+checking for java... /usr/bin/java
+configure: Found potential Boot JDK using java(c) in PATH
+checking for Boot JDK... /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b07-1.el6_10.x86_64
+checking Boot JDK version... openjdk version "1.8.0_242" OpenJDK Runtime Environment (build 1.8.0_242-b07) OpenJDK 64-Bit Server VM (build 25.242-b07, mixed mode)
+checking for java in Boot JDK... ok
+checking for javac in Boot JDK... ok
+checking for javah in Boot JDK... ok
+checking for jar in Boot JDK... ok
+checking for jarsigner in Boot JDK... ok
+checking if Boot JDK supports modules... no
+checking if Boot JDK is 32 or 64 bits... 64
+checking for Build JDK... yes, will use output dir
+configure: Using default toolchain gcc (GNU Compiler Collection)
+checking for gcc... /usr/bin/gcc
+checking resolved symbolic links for CC... no symlink
+configure: Using gcc C compiler version 4.4.7 [gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-23.0.1)]
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables...
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/bin/gcc accepts -g... yes
+checking for /usr/bin/gcc option to accept ISO C89... none needed
+checking for g++... /usr/bin/g++
+checking resolved symbolic links for CXX... no symlink
+configure: Using gcc C++ compiler version 4.4.7 [g++ (GCC) 4.4.7 20120313 (Red Hat 4.4.7-23.0.1)]
+checking whether we are using the GNU C++ compiler... yes
+checking whether /usr/bin/g++ accepts -g... yes
+checking how to run the C preprocessor... /usr/bin/gcc -E
+checking how to run the C++ preprocessor... /usr/bin/g++ -E
+checking for ar... ar
+configure: Rewriting AR to "/usr/bin/ar"
+checking for strip... strip
+configure: Rewriting STRIP to "/usr/bin/strip"
+checking for nm... nm
+configure: Rewriting NM to "/usr/bin/nm"
+checking for gobjcopy... no
+checking for objcopy... objcopy
+configure: Rewriting OBJCOPY to "/usr/bin/objcopy"
+checking for gobjdump... no
+checking for objdump... objdump
+configure: Rewriting OBJDUMP to "/usr/bin/objdump"
+checking if the C compiler supports "-Og"... no
+checking if the C++ compiler supports "-Og"... no
+checking if both compilers support "-Og"... no
+checking if linker supports "-Wl,-z,relro"... yes
+checking if linker supports "-Wl,-z,now"... yes
+checking for broken SuSE 'ld' which only understands anonymous version tags in executables... no
+checking for jtreg... no
+checking for jtreg test harness... no, not found
+checking if @file is supported by gcc... yes
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking size of int *... 8
+checking for target address size... 64 bits
+checking whether byte ordering is bigendian... no
+checking if the C++ compiler supports "-std=gnu++98 -Werror"... yes
+checking if the C++ compiler supports "-std=gnu++98 -Werror"... yes
+checking if the C compiler supports "-m64"... yes
+checking if the C++ compiler supports "-m64"... yes
+checking if both compilers support "-m64"... yes
+checking if native warnings are errors... no
+checking if the C compiler supports "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if the C++ compiler supports "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if both compilers support "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if the C compiler supports "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if the C++ compiler supports "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if both compilers support "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking what type of native debug symbols to use... zipped
+checking for dtrace tool... not found, cannot build dtrace
+checking sys/sdt.h usability... no
+checking sys/sdt.h presence... no
+checking for sys/sdt.h... no
+checking if dtrace should be built... no, missing dependencies
+checking if Hotspot gtest unit tests should be built... yes
+checking if static link of stdc++ is possible... yes
+checking how to link with libstdc++... static
+checking for X... libraries , headers
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for X11/extensions/shape.h... yes
+checking for X11/extensions/Xrender.h... yes
+checking for X11/extensions/XTest.h... yes
+checking for X11/Intrinsic.h... yes
+checking if XlinearGradient is defined in Xrender.h... yes
+checking cups/cups.h usability... yes
+checking cups/cups.h presence... yes
+checking for cups/cups.h... yes
+checking cups/ppd.h usability... yes
+checking cups/ppd.h presence... yes
+checking for cups/ppd.h... yes
+checking for FREETYPE... yes
+checking for freetype... yes (using pkg-config)
+checking if we can compile and link with freetype... yes
+checking if we should bundle freetype... no
+checking for ALSA... yes
+checking for which libjpeg to use... bundled
+checking for which giflib to use... bundled
+checking for which libpng to use... bundled
+checking for compress in -lz... yes
+checking for which zlib to use... system
+checking for which lcms to use... bundled
+checking for cos in -lm... yes
+checking for dlopen in -ldl... yes
+checking for ELF... no
+checking libelf.h usability... yes
+checking libelf.h presence... yes
+checking for libelf.h... yes
+checking if libelf works... yes
+checking if jdk.internal.vm.compiler should be built... yes
+checking if aot should be enabled... yes
+checking if elliptic curve crypto implementation is present... yes
+checking if jtreg failure handler should be built... no, missing jtreg
+checking if the CDS classlist generation should be enabled... yes
+checking for number of cores... 4
+checking for memory size... 15785 MB
+checking for appropriate number of jobs to run in parallel... 4
+checking flags for boot jdk java command ...  -Duser.language=en -Duser.country=US
+checking flags for boot jdk java command for big workloads...  -Xms64M -Xmx1600M -XX:ThreadStackSize=1536
+checking flags for bootcycle boot jdk java command for big workloads... -Xms64M -Xmx1600M -XX:ThreadStackSize=1536
+checking flags for boot jdk java command for small workloads...  -XX:+UseSerialGC -Xms32M -Xmx512M -XX:TieredStopAtLevel=1
+checking whether to use sjavac... no
+checking whether to use javac server... yes
+checking If precompiled header is enabled... yes
+checking that precompiled headers work... yes
+checking is ccache enabled... no
+checking if build directory is on local disk... yes
+checking JVM features for JVM variant 'server'... all-gcs aot cds compiler1 compiler2 fprof graal jni-check jvmci jvmti management nmt services vm-structs
+configure: creating /home/opc/jdk/jdk9/build/linux-x86_64-normal-server-release/configure-support/config.status
+config.status: creating /home/opc/jdk/jdk9/build/linux-x86_64-normal-server-release/spec.gmk
+config.status: creating /home/opc/jdk/jdk9/build/linux-x86_64-normal-server-release/bootcycle-spec.gmk
+config.status: creating /home/opc/jdk/jdk9/build/linux-x86_64-normal-server-release/buildjdk-spec.gmk
+config.status: creating /home/opc/jdk/jdk9/build/linux-x86_64-normal-server-release/compare.sh
+config.status: creating /home/opc/jdk/jdk9/build/linux-x86_64-normal-server-release/Makefile
+
+====================================================
+The existing configuration has been successfully updated in
+/home/opc/jdk/jdk9/build/linux-x86_64-normal-server-release
+using configure arguments '--disable-warnings-as-errors --with-version-build=1.8.0-nikhil_v1'.
+
+Configuration summary:
+* Debug level:    release
+* HS debug level: product
+* JDK variant:    normal
+* JVM variants:   server
+* OpenJDK target: OS: linux, CPU architecture: x86, address length: 64
+* Version string: 9-internal+1-adhoc.opc.jdk9 (9-internal)
+
+Tools summary:
+* Boot JDK:       openjdk version "1.8.0_242" OpenJDK Runtime Environment (build 1.8.0_242-b07) OpenJDK 64-Bit Server VM (build 25.242-b07, mixed mode)  (at /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b07-1.el6_10.x86_64)
+* Toolchain:      gcc (GNU Compiler Collection)
+* C Compiler:     Version 4.4.7 (at /usr/bin/gcc)
+* C++ Compiler:   Version 4.4.7 (at /usr/bin/g++)
+
+Build performance summary:
+* Cores to use:   4
+* Memory limit:   15785 MB
+
+WARNING: The result of this configuration has overridden an older
+configuration. You *should* run 'make clean' to make sure you get a
+proper build. Failure to do so might result in strange build problems.
+
+The following warnings were produced. Repeated here for convenience:
+WARNING: Value for VERSION_BUILD has been sanitized from '1.8.0-nikhil_v1' to '1'
+
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$ make clean
+Building target 'clean' in configuration 'linux-x86_64-normal-server-release'
+Cleaning hotspot build artifacts ... done
+Cleaning jdk build artifacts ... done
+Cleaning bootcycle-build build artifacts ... done
+Cleaning test build artifacts ... done
+Cleaning buildtools build artifacts ... done
+Cleaning support build artifacts ... done
+Cleaning images build artifacts ... done
+Cleaning make-support build artifacts ... done
+Cleaning test-make build artifacts ... done
+Cleaning bundles build artifacts ... done
+Cleaning buildjdk build artifacts ... done
+Cleaned all build artifacts.
+Finished building target 'clean' in configuration 'linux-x86_64-normal-server-release'
+[opc@instance-20200201-1813 jdk9]$
+[opc@instance-20200201-1813 jdk9]$ make images
+Building target 'images' in configuration 'linux-x86_64-normal-server-release'
+Compiling 8 files for BUILD_TOOLS_LANGTOOLS
+Creating hotspot/variant-server/tools/adlc/adlc from 13 file(s)
+Compiling 2 files for BUILD_JVMTI_TOOLS
+Creating support/modules_libs/java.base/libjsig.so from 1 file(s)
+Parsing 1 properties into enum-like class for jdk.compiler
+Compiling 17 properties into resource bundles for jdk.compiler
+Compiling 19 properties into resource bundles for jdk.javadoc
+Compiling 12 properties into resource bundles for jdk.jdeps
+Compiling 7 properties into resource bundles for jdk.jshell
+Compiling 117 files for BUILD_INTERIM_java.compiler
+Compiling 396 files for BUILD_INTERIM_jdk.compiler
+Creating support/modules_libs/java.base/server/libjvm.so from 695 file(s)
+Creating hotspot/variant-server/libjvm/gtest/libjvm.so from 52 file(s)
+Creating hotspot/variant-server/libjvm/gtest/gtestLauncher from 1 file(s)
+Compiling 61 files for BUILD_INTERIM_jdk.jdeps
+Compiling 457 files for BUILD_INTERIM_jdk.javadoc
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 159 files for BUILD_TOOLS_JDK
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Compiling 141 files for BUILD_IDLJ
+Compiling 6 files for BUILD_TOOLS_CORBA
+Note: /home/opc/jdk/jdk9/corba/src/java.corba/share/classes/com/sun/tools/corba/se/idl/som/idlemit/MetaPragma.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Compiling 928 files for BUILD_VM_COMPILER_MATCH_PROCESSOR
+Compiling 11 properties into resource bundles for jdk.jartool
+Compiling 9 files for BUILD_VM_COMPILER_NODEINFO_PROCESSOR
+Compiling 11 properties into resource bundles for jdk.management.agent
+Compiling 12 files for BUILD_VM_COMPILER_OPTIONS_PROCESSOR
+Compiling 311 files for BUILD_VM_COMPILER_REPLACEMENTS_VERIFIER
+Compiling 3 properties into resource bundles for jdk.jdi
+Compiling 4 properties into resource bundles for jdk.jlink
+Compiling 3 properties into resource bundles for jdk.jlink
+Compiling 1 properties into resource bundles for jdk.jlink
+Compiling 8 files for BUILD_VM_COMPILER_SERVICEPROVIDER_PROCESSOR
+Creating buildtools/jdk.vm.compiler.match.processor.jar
+Creating buildtools/jdk.vm.compiler.nodeinfo.processor.jar
+Creating buildtools/jdk.vm.compiler.options.processor.jar
+Creating buildtools/jdk.vm.compiler.replacements.verifier.jar
+Creating buildtools/jdk.vm.compiler.serviceprovider.processor.jar
+Compiling 3 files for COMPILE_CREATE_SYMBOLS
+Creating ct.sym classes
+Compiling 198 files for BUILD_INTERIM_RMIC
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 31 files for BUILD_JRTFS
+Creating support/modules_libs/java.base/jrt-fs.jar
+Creating support/symbols/ct.sym
+Compiling 2 files for BUILD_BREAKITERATOR_BASE
+Compiling 2 files for BUILD_BREAKITERATOR_LD
+Compiling 11 properties into resource bundles for java.logging
+Compiling 11 properties into resource bundles for java.base
+Compiling 6 properties into resource bundles for java.base
+Compiling 224 properties into resource bundles for jdk.localedata
+Compiling 2897 files for java.base
+Compiling 100 properties into resource bundles for java.desktop
+Compiling 34 files for java.logging
+Compiling 18 files for java.datatransfer
+Compiling 118 files for java.compiler
+Compiling 30 files for java.security.sasl
+Compiling 10 files for jdk.unsupported
+Compiling 127 files for java.rmi
+Compiling 10 files for java.instrument
+Compiling 330 files for java.management
+Compiling 15 files for java.scripting
+Compiling 6 files for java.xml.ws.annotation
+Compiling 1838 files for java.xml
+Compiling 44 files for jdk.httpserver
+Compiling 21 files for java.smartcardio
+Compiling 181 files for jdk.internal.vm.ci
+Compiling 24 files for jdk.management
+Compiling 59 files for jdk.internal.jvmstat
+Compiling 118 files for jdk.charsets
+Compiling 399 files for jdk.compiler
+Compiling 8 files for jdk.crypto.ec
+Compiling 68 files for jdk.dynalink
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API that is marked for removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Compiling 3 files for jdk.internal.ed
+Compiling 124 files for jdk.incubator.httpclient
+Compiling 46 files for jdk.internal.le
+Compiling 46 files for jdk.internal.opt
+Compiling 32 files for jdk.jartool
+Compiling 1 files for jdk.jdwp.agent
+Compiling 11 files for jdk.jstatd
+Compiling 2102 files for jdk.localedata
+Compiling 6 files for jdk.net
+Compiling 1 files for jdk.pack
+Compiling 33 files for jdk.sctp
+Compiling 117 files for BUILD_NASGEN
+Compiling 94 files for jdk.xml.dom
+Compiling 14 files for jdk.zipfs
+Compiling 595 files for jdk.scripting.nashorn
+Warning: generation and use of skeletons and static stubs for JRMP
+is deprecated. Skeletons are unnecessary, and static stubs have
+been superseded by dynamically generated stubs. Users are
+encouraged to migrate away from using rmic to generate skeletons and static
+stubs. See the documentation for java.rmi.server.UnicastRemoteObject.
+Compiling 25 files for java.activation
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Compiling 193 files for java.naming
+Compiling 4 files for java.transaction
+Compiling 14 files for java.prefs
+Compiling 78 files for java.sql
+Compiling 283 files for java.xml.crypto
+Running nasgen
+Compiling 15 files for jdk.attach
+Compiling 67 files for jdk.crypto.cryptoki
+Compiling 460 files for jdk.javadoc
+Compiling 38 files for jdk.jcmd
+Compiling 131 files for jdk.jdeps
+Compiling 250 files for jdk.jdi
+Compiling 76 files for jdk.jlink
+Compiling 15 files for jdk.naming.dns
+Compiling 7 files for jdk.naming.rmi
+Compiling 14 files for java.management.rmi
+Compiling 211 files for java.security.jgss
+Compiling 2887 files for java.desktop
+Compiling 51 files for java.sql.rowset
+Compiling 31 files for jdk.management.agent
+Compiling 94 files for jdk.jshell
+Compiling 16 files for jdk.security.jgss
+Compiling 37 files for jdk.security.auth
+Warning: generation and use of skeletons and static stubs for JRMP
+is deprecated. Skeletons are unnecessary, and static stubs have
+been superseded by dynamically generated stubs. Users are
+encouraged to migrate away from using rmic to generate skeletons and static
+stubs. See the documentation for java.rmi.server.UnicastRemoteObject.
+Warning: generation and use of skeletons and static stubs for JRMP
+is deprecated. Skeletons are unnecessary, and static stubs have
+been superseded by dynamically generated stubs. Users are
+encouraged to migrate away from using rmic to generate skeletons and static
+stubs. See the documentation for java.rmi.server.UnicastRemoteObject.
+Compiling 1572 files for jdk.internal.vm.compiler
+Updating support/src.zip
+Compiling 1481 files for java.corba
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API that is marked for removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Compiling 1 files for java.se
+Compiling 760 files for java.xml.bind
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jaxws/src/java.xml.bind/share/classes/module-info.java uses or overrides a deprecated API that is marked for removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Compiling 18 files for jdk.accessibility
+Compiling 72 files for jdk.aot
+Compiling 3 files for jdk.editpad
+Compiling 985 files for jdk.hotspot.agent
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Compiling 64 files for jdk.jconsole
+Compiling 5 files for jdk.jsobject
+Compiling 14 files for jdk.policytool
+Compiling 227 files for jdk.rmic
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jdk/src/jdk.rmic/share/classes/module-info.java uses or overrides a deprecated API that is marked for removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Compiling 10 files for jdk.scripting.nashorn.shell
+Compiling 791 files for jdk.xml.bind
+Compiling 1241 files for java.xml.ws
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jaxws/src/jdk.xml.bind/share/classes/module-info.java uses or overrides a deprecated API that is marked for removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+/home/opc/jdk/jdk9/jaxws/src/java.xml.ws/share/classes/com/sun/xml/internal/messaging/saaj/packaging/mime/internet/MimeBodyPart.java:1097: warning: auxiliary class hdr in /home/opc/jdk/jdk9/jaxws/src/java.xml.ws/share/classes/com/sun/xml/internal/messaging/saaj/packaging/mime/internet/InternetHeaders.java should not be accessed from outside its own source file
+    public FinalArrayList<hdr> getAllHeaders() {
+                          ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jaxws/src/java.xml.ws/share/classes/module-info.java uses or overrides a deprecated API that is marked for removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+Compiling 1 files for java.se.ee
+Compiling 236 files for jdk.xml.ws
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jaxws/src/jdk.xml.ws/share/classes/module-info.java uses or overrides a deprecated API that is marked for removal.
+Note: Recompile with -Xlint:removal for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+g++: unrecognized option '-static-libstdc++'
+g++: unrecognized option '-static-libstdc++'
+g++: unrecognized option '-static-libstdc++'
+Creating support/modules_libs/java.base/libverify.so from 2 file(s)
+Creating support/modules_libs/java.base/libjava.so from 60 file(s)
+Creating support/native/java.base/libfdlibm.a from 57 file(s)
+Creating support/modules_libs/java.base/libzip.so from 5 file(s)
+Creating support/modules_libs/java.base/libjimage.so from 6 file(s)
+Creating support/modules_libs/java.base/jli/libjli.so from 8 file(s)
+Creating support/modules_libs/java.base/libnet.so from 21 file(s)
+Creating support/modules_libs/java.base/libnio.so from 24 file(s)
+g++: unrecognized option '-static-libstdc++'
+Creating support/native/java.base/java_objs/java from 1 file(s)
+Creating support/modules_cmds/jdk.jlink/jimage from 1 file(s)
+Creating support/modules_cmds/java.base/keytool from 1 file(s)
+Creating support/modules_cmds/jdk.jlink/jlink from 1 file(s)
+Creating support/modules_libs/java.base/jexec from 1 file(s)
+Creating support/modules_cmds/jdk.jlink/jmod from 1 file(s)
+Creating support/modules_cmds/java.corba/idlj from 1 file(s)
+Creating support/modules_cmds/java.corba/orbd from 1 file(s)
+Creating support/modules_cmds/java.corba/servertool from 1 file(s)
+Creating support/modules_cmds/java.corba/tnameserv from 1 file(s)
+Creating support/modules_libs/java.desktop/libmlib_image.so from 50 file(s)
+Creating support/modules_libs/java.desktop/libawt.so from 73 file(s)
+Creating support/modules_libs/java.desktop/libawt_xawt.so from 57 file(s)
+Creating support/modules_libs/java.desktop/liblcms.so from 27 file(s)
+Creating support/modules_libs/java.desktop/libjavajpeg.so from 46 file(s)
+Creating support/modules_libs/java.desktop/libawt_headless.so from 26 file(s)
+Creating support/modules_libs/java.desktop/libfontmanager.so from 130 file(s)
+Creating support/modules_libs/java.desktop/libjawt.so from 1 file(s)
+Creating support/modules_libs/java.desktop/libsplashscreen.so from 67 file(s)
+Creating support/modules_libs/java.desktop/libjsound.so from 2 file(s)
+Creating support/modules_libs/java.desktop/libjsoundalsa.so from 17 file(s)
+Creating support/modules_cmds/java.desktop/appletviewer from 1 file(s)
+Creating support/modules_libs/java.instrument/libinstrument.so from 12 file(s)
+Creating support/modules_libs/java.management/libmanagement.so from 9 file(s)
+Creating support/modules_libs/java.prefs/libprefs.so from 1 file(s)
+Creating support/modules_libs/java.rmi/librmi.so from 1 file(s)
+Creating support/modules_cmds/java.rmi/rmid from 1 file(s)
+Creating support/modules_cmds/java.rmi/rmiregistry from 1 file(s)
+Creating support/modules_cmds/java.scripting/jrunscript from 1 file(s)
+Creating support/modules_libs/java.security.jgss/libj2gss.so from 3 file(s)
+Creating support/modules_libs/java.smartcardio/libj2pcsc.so from 2 file(s)
+Creating support/modules_libs/jdk.aot/libjelfshim.so from 2 file(s)
+Creating support/modules_cmds/jdk.aot/jaotc from 1 file(s)
+Creating support/modules_libs/jdk.attach/libattach.so from 1 file(s)
+Creating support/modules_cmds/jdk.compiler/javac from 1 file(s)
+Creating support/modules_cmds/jdk.compiler/javah from 1 file(s)
+Creating support/modules_cmds/jdk.compiler/serialver from 1 file(s)
+Creating support/modules_libs/jdk.crypto.cryptoki/libj2pkcs11.so from 14 file(s)
+Creating support/modules_libs/jdk.crypto.ec/libsunec.so from 28 file(s)
+Creating support/modules_libs/jdk.hotspot.agent/libsaproc.so from 7 file(s)
+Creating support/modules_cmds/jdk.hotspot.agent/jhsdb from 1 file(s)
+Creating support/modules_cmds/jdk.jartool/jar from 1 file(s)
+Creating support/modules_cmds/jdk.jartool/jarsigner from 1 file(s)
+Creating support/modules_cmds/jdk.javadoc/javadoc from 1 file(s)
+Creating support/modules_cmds/jdk.jcmd/jinfo from 1 file(s)
+Creating support/modules_cmds/jdk.jcmd/jmap from 1 file(s)
+Creating support/modules_cmds/jdk.jcmd/jps from 1 file(s)
+Creating support/modules_cmds/jdk.jcmd/jstack from 1 file(s)
+Creating support/modules_cmds/jdk.jcmd/jstat from 1 file(s)
+Creating support/modules_cmds/jdk.jcmd/jcmd from 1 file(s)
+g++: unrecognized option '-static-libstdc++'
+Creating support/modules_cmds/jdk.jconsole/jconsole from 1 file(s)
+Creating support/modules_cmds/jdk.jdeps/javap from 1 file(s)
+Creating support/modules_cmds/jdk.jdeps/jdeps from 1 file(s)
+Creating support/modules_cmds/jdk.jdeps/jdeprscan from 1 file(s)
+Creating support/modules_cmds/jdk.jdi/jdb from 1 file(s)
+Creating support/modules_libs/jdk.jdwp.agent/libdt_socket.so from 2 file(s)
+Creating support/modules_libs/jdk.jdwp.agent/libjdwp.so from 42 file(s)
+Creating support/modules_cmds/jdk.jshell/jshell from 1 file(s)
+Creating support/modules_cmds/jdk.jstatd/jstatd from 1 file(s)
+Creating support/modules_libs/jdk.management/libmanagement_ext.so from 8 file(s)
+Creating support/modules_libs/jdk.management.agent/libmanagement_agent.so from 1 file(s)
+Creating support/modules_libs/jdk.pack/libunpack.so from 7 file(s)
+g++: unrecognized option '-static-libstdc++'
+Creating support/modules_cmds/jdk.pack/pack200 from 1 file(s)
+Creating support/modules_cmds/jdk.pack/unpack200 from 7 file(s)
+Creating support/modules_cmds/jdk.policytool/policytool from 1 file(s)
+Creating support/modules_cmds/jdk.rmic/rmic from 1 file(s)
+Creating support/modules_cmds/jdk.scripting.nashorn.shell/jjs from 1 file(s)
+Creating support/modules_libs/jdk.sctp/libsctp.so from 3 file(s)
+Creating support/modules_libs/jdk.security.auth/libjaas_unix.so from 1 file(s)
+Creating support/modules_cmds/jdk.xml.bind/schemagen from 1 file(s)
+Creating support/modules_cmds/jdk.xml.bind/xjc from 1 file(s)
+Creating support/modules_cmds/jdk.xml.ws/wsgen from 1 file(s)
+Creating support/modules_cmds/jdk.xml.ws/wsimport from 1 file(s)
+Updating images/sec-bin.zip
+g++: unrecognized option '-static-libstdc++'
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/layout/ContextualGlyphInsertionProc2.cpp: In member function ‘virtual le_uint16 ContextualGlyphInsertionProcessor2::processStateEntry(LEGlyphStorage&, le_int32&, EntryTableIndex2, LEErrorCode&)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/layout/ContextualGlyphInsertionProc2.cpp:115: warning: overflow in implicit constant conversion
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/layout/ContextualGlyphInsertionProc2.cpp:116: warning: overflow in implicit constant conversion
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/layout/ContextualGlyphInsertionProc2.cpp:127: warning: overflow in implicit constant conversion
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/layout/ContextualGlyphInsertionProc2.cpp:128: warning: overflow in implicit constant conversion
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+At global scope:
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+In file included from /home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-face.cc:237:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh: In function ‘void hb_face_destroy(hb_face_t*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+In file included from /home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-font.cc:1246:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh: In function ‘void hb_font_destroy(hb_font_t*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+At global scope:
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-ot-layout.cc: In function ‘bool hb_ot_shaper_face_data_ensure(hb_face_t*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-ot-layout.cc:45: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-ot-layout.cc:45: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-ot-layout.cc:45: warning: dereferencing type-punned pointer will break strict-aliasing rules
+At global scope:
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-open-type-private.hh: In function ‘hb_bool_t hb_ot_get_glyph_extents(hb_font_t*, void*, hb_codepoint_t, hb_glyph_extents_t*, void*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-open-type-private.hh:566: warning: dereferencing pointer ‘<anonymous>’ does break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-open-type-private.hh:860: note: initialized from here
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-open-type-private.hh:566: warning: dereferencing pointer ‘<anonymous>’ does break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-open-type-private.hh:860: note: initialized from here
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+At global scope:
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-ot-shape.cc: In function ‘hb_bool_t _hb_ot_shape(hb_shape_plan_t*, hb_font_t*, hb_buffer_t*, const hb_feature_t*, unsigned int)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-ot-shape.cc:829: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-ot-shape.cc: In function ‘void hb_ot_shape_plan_collect_lookups(hb_shape_plan_t*, hb_tag_t, hb_set_t*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-ot-shape.cc:847: warning: dereferencing type-punned pointer will break strict-aliasing rules
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+At global scope:
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+In file included from /home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shape-plan.cc:41:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh: In function ‘bool hb_ot_shaper_face_data_ensure(hb_face_t*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh: In function ‘bool hb_ot_shaper_font_data_ensure(hb_font_t*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh: In function ‘bool hb_fallback_shaper_face_data_ensure(hb_face_t*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh: In function ‘bool hb_fallback_shaper_font_data_ensure(hb_font_t*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+In file included from /home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shape-plan.cc:81:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh: In function ‘void hb_shape_plan_plan(hb_shape_plan_t*, const hb_feature_t*, unsigned int, const int*, unsigned int, const char* const*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+In file included from /home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shape-plan.cc:90:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+In file included from /home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shape-plan.cc:258:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh: In function ‘void hb_shape_plan_destroy(hb_shape_plan_t*)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+In file included from /home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shape-plan.cc:361:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh: In function ‘hb_bool_t hb_shape_plan_execute(hb_shape_plan_t*, hb_font_t*, hb_buffer_t*, const hb_feature_t*, unsigned int)’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:43: warning: dereferencing type-punned pointer will break strict-aliasing rules
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libfontmanager/harfbuzz/hb-shaper-list.hh:57: warning: dereferencing type-punned pointer will break strict-aliasing rules
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+At global scope:
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: command line option "-Wno-int-to-pointer-cast" is valid for C/ObjC but not for C++
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libsplashscreen/splashscreen_gfx_impl.c: In function ‘initFormat’:
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libsplashscreen/splashscreen_gfx_impl.c:292: warning: ‘shift’ may be used uninitialized in this function
+/home/opc/jdk/jdk9/jdk/src/java.desktop/share/native/libsplashscreen/splashscreen_gfx_impl.c:292: warning: ‘numBits’ may be used uninitialized in this function
+At top level:
+cc1: warning: unrecognized command line option "-Wno-shift-negative-value"
+cc1: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1: warning: unrecognized command line option "-Wno-unused-result"
+At global scope:
+cc1plus: warning: unrecognized command line option "-Wno-maybe-uninitialized"
+cc1plus: warning: unrecognized command line option "-Wno-delete-non-virtual-dtor"
+g++: unrecognized option '-static-libstdc++'
+Compiling 4 files for BUILD_JIGSAW_TOOLS
+Creating images/jmods/java.activation.jmod
+Creating support/interim-jmods/java.logging.jmod
+Creating images/jmods/java.compiler.jmod
+Creating support/interim-jmods/java.base.jmod
+Creating images/jmods/java.datatransfer.jmod
+Creating images/jmods/java.corba.jmod
+Creating images/jmods/java.desktop.jmod
+Creating images/jmods/java.instrument.jmod
+Creating images/jmods/java.logging.jmod
+Creating images/jmods/java.management.jmod
+Creating images/jmods/java.management.rmi.jmod
+Creating images/jmods/java.prefs.jmod
+Creating images/jmods/java.naming.jmod
+Creating images/jmods/java.rmi.jmod
+Creating images/jmods/java.scripting.jmod
+Creating images/jmods/java.se.jmod
+Creating images/jmods/java.se.ee.jmod
+Creating images/jmods/java.security.jgss.jmod
+Creating images/jmods/java.security.sasl.jmod
+Creating images/jmods/java.smartcardio.jmod
+Creating images/jmods/java.sql.jmod
+Creating images/jmods/java.sql.rowset.jmod
+Creating images/jmods/java.transaction.jmod
+Creating images/jmods/java.xml.jmod
+Creating images/jmods/java.xml.bind.jmod
+Creating images/jmods/java.xml.crypto.jmod
+Creating images/jmods/java.xml.ws.jmod
+Creating images/jmods/java.xml.ws.annotation.jmod
+Creating images/jmods/jdk.accessibility.jmod
+Creating images/jmods/jdk.aot.jmod
+Creating images/jmods/jdk.attach.jmod
+Creating images/jmods/jdk.charsets.jmod
+Creating images/jmods/jdk.compiler.jmod
+Creating images/jmods/jdk.crypto.cryptoki.jmod
+Creating images/jmods/jdk.crypto.ec.jmod
+Creating images/jmods/jdk.dynalink.jmod
+Creating images/jmods/jdk.editpad.jmod
+Creating images/jmods/jdk.hotspot.agent.jmod
+Creating images/jmods/jdk.httpserver.jmod
+Creating images/jmods/jdk.incubator.httpclient.jmod
+Creating images/jmods/jdk.internal.ed.jmod
+Creating images/jmods/jdk.internal.jvmstat.jmod
+Creating images/jmods/jdk.internal.le.jmod
+Creating images/jmods/jdk.internal.opt.jmod
+Creating images/jmods/jdk.internal.vm.ci.jmod
+Creating images/jmods/jdk.internal.vm.compiler.jmod
+Creating images/jmods/jdk.jartool.jmod
+Creating images/jmods/jdk.javadoc.jmod
+Creating images/jmods/jdk.jcmd.jmod
+Creating images/jmods/jdk.jconsole.jmod
+Creating images/jmods/jdk.jdeps.jmod
+Creating images/jmods/jdk.jdi.jmod
+Creating images/jmods/jdk.jdwp.agent.jmod
+Creating images/jmods/jdk.jshell.jmod
+Creating images/jmods/jdk.jsobject.jmod
+Creating images/jmods/jdk.jstatd.jmod
+Creating images/jmods/jdk.management.jmod
+Creating images/jmods/jdk.localedata.jmod
+Creating images/jmods/jdk.management.agent.jmod
+Creating images/jmods/jdk.naming.dns.jmod
+Creating images/jmods/jdk.naming.rmi.jmod
+Creating images/jmods/jdk.net.jmod
+Creating images/jmods/jdk.pack.jmod
+Creating images/jmods/jdk.policytool.jmod
+Creating images/jmods/jdk.rmic.jmod
+Creating images/jmods/jdk.scripting.nashorn.jmod
+Creating images/jmods/jdk.scripting.nashorn.shell.jmod
+Creating images/jmods/jdk.sctp.jmod
+Creating images/jmods/jdk.security.auth.jmod
+Creating images/jmods/jdk.security.jgss.jmod
+Creating images/jmods/jdk.unsupported.jmod
+Creating images/jmods/jdk.xml.bind.jmod
+Creating images/jmods/jdk.xml.ws.jmod
+Creating images/jmods/jdk.xml.dom.jmod
+Creating images/jmods/jdk.zipfs.jmod
+Creating interim jimage
+Compiling 1 files for BUILD_DEMO_APPLET_ArcTest
+Compiling 1 files for BUILD_DEMO_APPLET_BarChart
+Compiling 1 files for BUILD_DEMO_APPLET_Blink
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/ArcTest/ArcTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/BarChart/BarChart.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 1 files for BUILD_DEMO_APPLET_CardTest
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/Blink/Blink.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 1 files for BUILD_DEMO_APPLET_Clock
+Compiling 1 files for BUILD_DEMO_APPLET_DitherTest
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/CardTest/CardTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 1 files for BUILD_DEMO_APPLET_DrawTest
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/Clock/Clock.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/DitherTest/DitherTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 1 files for BUILD_DEMO_APPLET_Fractal
+Compiling 2 files for BUILD_DEMO_APPLET_GraphicsTest
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/DrawTest/DrawTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 1 files for BUILD_DEMO_APPLET_NervousText
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/Fractal/CLSFractal.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 1 files for BUILD_DEMO_APPLET_SimpleGraph
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/NervousText/NervousText.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 5 files for BUILD_DEMO_APPLET_SortDemo
+Compiling 1 files for BUILD_DEMO_APPLET_SpreadSheet
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/SimpleGraph/GraphApplet.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 3 files for BUILD_DEMO_CodePointIM
+Creating support/classlist.jar
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/SortDemo/SortItem.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/SpreadSheet/SpreadSheet.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Updating support/demos/image/jfc/CodePointIM/src.zip
+Compiling 2 files for BUILD_DEMO_MoleculeViewer
+Updating support/demos/image/applets/MoleculeViewer/src.zip
+Compiling 2 files for BUILD_DEMO_WireFrame
+Updating support/demos/image/applets/WireFrame/src.zip
+Compiling 1 files for BUILD_DEMO_SwingApplet
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/MoleculeViewer/XYZApp.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/applets/WireFrame/ThreeD.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Updating support/demos/image/jfc/SwingApplet/src.zip
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/jfc/SwingApplet/SwingApplet.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Compiling 3 files for BUILD_DEMO_FileChooserDemo
+Updating support/demos/image/jfc/FileChooserDemo/src.zip
+Creating images/jmods/jdk.jlink.jmod
+Compiling 4 files for BUILD_DEMO_Font2DTest
+Updating support/demos/image/jfc/Font2DTest/src.zip
+Compiling 15 files for BUILD_DEMO_Metalworks
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/jfc/FileChooserDemo/FileChooserDemo.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/jfc/FileChooserDemo/FileChooserDemo.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Updating support/demos/image/jfc/Metalworks/src.zip
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/jfc/Metalworks/MetalworksPrefs.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Compiling 2 files for BUILD_DEMO_Notepad
+Creating images/jmods/java.base.jmod
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Updating support/demos/image/jfc/Notepad/src.zip
+Compiling 5 files for BUILD_DEMO_SampleTree
+Updating support/demos/image/jfc/SampleTree/src.zip
+Compiling 8 files for BUILD_DEMO_TableExample
+Updating support/demos/image/jfc/TableExample/src.zip
+Compiling 1 files for BUILD_DEMO_TransparentRuler
+Updating support/demos/image/jfc/TransparentRuler/src.zip
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/opc/jdk/jdk9/jdk/src/demo/share/jfc/TableExample/TableExample4.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Creating support/demos/image/jfc/CodePointIM/CodePointIM.jar
+Creating support/demos/image/applets/MoleculeViewer/MoleculeViewer.jar
+Creating support/demos/image/applets/WireFrame/WireFrame.jar
+Creating support/demos/image/jfc/SwingApplet/SwingApplet.jar
+Creating support/demos/image/jfc/FileChooserDemo/FileChooserDemo.jar
+Creating support/demos/image/jfc/Font2DTest/Font2DTest.jar
+Creating support/demos/image/jfc/Metalworks/Metalworks.jar
+Creating support/demos/image/jfc/Notepad/Notepad.jar
+Creating support/demos/image/jfc/SampleTree/SampleTree.jar
+Creating support/demos/image/jfc/TableExample/TableExample.jar
+Creating support/demos/image/jfc/TransparentRuler/TransparentRuler.jar
+Creating jre jimage
+Creating jdk jimage
+WARNING: Using incubator modules: jdk.incubator.httpclient
+WARNING: Using incubator modules: jdk.incubator.httpclient
+Stopping sjavac server
+Finished building target 'images' in configuration 'linux-x86_64-normal-server-release'
+[opc@instance-20200201-1813 jdk9]$
